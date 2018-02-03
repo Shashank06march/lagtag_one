@@ -1,0 +1,10 @@
+{:uriI"¯file://app/assets/javascripts/spree/backend/templates/products/sortable.hbs?type=text/x-handlebars-template&id=a9621dcb2019e4ee08f825d05a53af3865bbe9a9aefed6a8486678df83ade788:ET:load_pathI"app/assets/javascripts;T:filenameI"Iapp/assets/javascripts/spree/backend/templates/products/sortable.hbs;T:	nameI".spree/backend/templates/products/sortable;T:logical_pathI"2spree/backend/templates/products/sortable.hbs;T:content_typeI"text/x-handlebars-template;T:sourceI"â<a href="#" id="product_{{ id }}" data-product-id="{{ id }}" class="sort_item list-group-item">
+  <i class="fa fa-sort"></i>
+  <span class="product_name">{{ name }}</span>
+  <span class="right">{{ display_price }}</span>
+</a>
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"Tprocessors:type=text/x-handlebars-template&file_type=text/x-handlebars-template;TTI"Wfile-digest://app/assets/javascripts/spree/backend/templates/products/sortable.hbs;TTF:charsetI"
+utf-8;F:digest"%¹*úRº“{1™ƒŸ1ÿÿÌ¤NN“¹¥«\g*dRO:lengthiâ:dependencies_digest"%ÅÂz–WGÜö‚0W0 îÆ‚ëYÎ±,…ÒvÖ:idI"Ea9621dcb2019e4ee08f825d05a53af3865bbe9a9aefed6a8486678df83ade788;F:
+mtimel+â^Z

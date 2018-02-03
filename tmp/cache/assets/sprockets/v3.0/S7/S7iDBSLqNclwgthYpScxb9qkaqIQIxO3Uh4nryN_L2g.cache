@@ -1,0 +1,29 @@
+{:uriI"¶file://app/assets/javascripts/spree/backend/templates/orders/shipment_tracking.hbs?type=text/x-handlebars-template&id=264f5a330a87efc4655f5612f9bd5952e2b9b93d48487dd0fda60ad01db7db24:ET:load_pathI"app/assets/javascripts;T:filenameI"Papp/assets/javascripts/spree/backend/templates/orders/shipment_tracking.hbs;T:	nameI"5spree/backend/templates/orders/shipment_tracking;T:logical_pathI"9spree/backend/templates/orders/shipment_tracking.hbs;T:content_typeI"text/x-handlebars-template;T:sourceI"ù<th>
+  {{ human_attribute_name "spree/shipment" "tracking" }}
+</th>
+<td colspan="4">
+  {{#if editing}}
+    <form>
+      <input type="text" name="tracking" class="fullwidth" value="{{tracking}}">
+    </form>
+  {{else}}
+    {{#if tracking}}
+      {{ tracking }}
+    {{else}}
+      {{ t "no_tracking_present" }}
+    {{/if}}
+  {{/if}}
+</td>
+<td class="actions">
+  {{#if editing}}
+    <button class="js-save fa fa-check no-text with-tip" data-action="save" title="{{ t "actions.save" }}"></button>
+    <button class="js-cancel fa fa-cancel no-text with-tip" data-action="cancel" title="{{ t "actions.cancel" }}"></button>
+  {{else}}
+    <button class="js-edit fa fa-edit no-text with-tip" data-action="edit" title=""{{ t "actions.edit" }}"></button>
+  {{/if}}
+</td>
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"Tprocessors:type=text/x-handlebars-template&file_type=text/x-handlebars-template;TTI"^file-digest://app/assets/javascripts/spree/backend/templates/orders/shipment_tracking.hbs;TTF:charsetI"
+utf-8;F:digest"%“2þ¸ýŒ‡G“¢WãÒ9³JŒZGlõæ–àþ:lengthiù:dependencies_digest"%¨«—³w(Zàz0l…®ßÈMŽ'1{C«ÊÌ»+”:idI"E264f5a330a87efc4655f5612f9bd5952e2b9b93d48487dd0fda60ad01db7db24;F:
+mtimel+â^Z

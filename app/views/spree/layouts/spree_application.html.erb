@@ -1,0 +1,54 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html class="ie ie6" lang="<%= I18n.locale %>"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7" lang="<%= I18n.locale %>"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8" lang="<%= I18n.locale %>"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9" lang="<%= I18n.locale %>"> <![endif]-->
+<!--[if gt IE 9]><!--><html lang="<%= I18n.locale %>"><!--<![endif]-->
+  <head data-hook="inside_head">
+     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= render partial: 'spree/shared/head' %>
+  </head>
+  <% if controller_name== "home" && action_name == "index" %>
+    <div style="background-image: url(<%= asset_path 'category_page_v3.png' %>)" class="spree_img">
+  <% elsif controller_name== "taxons" && action_name == "show" %>
+    <div style="background-image: url(<%= asset_path 'category_page_v3.png' %>)" class="spree_img">
+  <% elsif controller_name== "products" && action_name == "index" %>
+    <div style="background-image: url(<%= asset_path 'category_page_v3.png' %>)" class="spree_img">
+  <% elsif controller_name== "products" && action_name == "show" %>
+    <div style="background-image: url(<%= asset_path 'product_detail_v3.png' %>)" class="spree_img">
+  <% elsif controller_name== "orders" && action_name == "edit" %>
+    <div style="background-image: url(<%= asset_path 'cart_v3.png' %>)" class="spree_img">
+  <% elsif controller_name== "checkout" && action_name == "edit" %>
+    <div style="background-image: url(<%= asset_path 'checkout_v3.png' %>)" class="spree_img">
+  <% else %>
+    <div style="background-image: url(<%= asset_path 'cart_v3.png' %>)" class="">
+
+  <% end %>
+  <body class="<%= body_class %>" id="<%= @body_id || 'default' %>" data-hook="body">
+   
+    <div class="container">
+
+      <%= render partial: 'spree/shared/header' %>
+
+      <div id="wrapper" class="row" data-hook>
+
+        <%= taxon_breadcrumbs(@taxon) %>
+
+        <%= render partial: 'spree/shared/sidebar' if content_for? :sidebar %>
+
+        <div id="content" class="columns <%= !content_for?(:sidebar) ? "sixteen" : "twelve omega" %>" data-hook>
+          <%= flash_messages %>
+          <%= yield %>
+        </div>
+
+        <%= yield :templates %>
+
+      </div>
+
+      <%= render partial: 'spree/shared/footer' %>
+
+    </div>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </body>
+</div>
+</html>

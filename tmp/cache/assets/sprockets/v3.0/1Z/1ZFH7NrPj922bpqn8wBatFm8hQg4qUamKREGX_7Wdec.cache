@@ -1,0 +1,9 @@
+{:uriI"»file://app/assets/javascripts/spree/backend/templates/orders/details_adjustment_row.hbs?type=text/x-handlebars-template&id=c2fd002cfcd661a9223723b418d7047802c86c258fcd2b710cc6a5fb65470829:ET:load_pathI"app/assets/javascripts;T:filenameI"Uapp/assets/javascripts/spree/backend/templates/orders/details_adjustment_row.hbs;T:	nameI":spree/backend/templates/orders/details_adjustment_row;T:logical_pathI">spree/backend/templates/orders/details_adjustment_row.hbs;T:content_typeI"text/x-handlebars-template;T:sourceI"[<tr>
+  <td>{{ label }}:</td>
+  <td class="total"><span>{{ amount }}</span></td>
+</tr>
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"Tprocessors:type=text/x-handlebars-template&file_type=text/x-handlebars-template;TTI"cfile-digest://app/assets/javascripts/spree/backend/templates/orders/details_adjustment_row.hbs;TTF:charsetI"
+utf-8;F:digest"%Fà:]”÷à?UYÛ*‹ÿ“:$·œB'tõ+L:lengthi[:dependencies_digest"%\ğõ·G§„}¶\K=[‘pvÕÏEMÎ<2Ïeõ¼²|Í:idI"Ec2fd002cfcd661a9223723b418d7047802c86c258fcd2b710cc6a5fb65470829;F:
+mtimel+â^Z

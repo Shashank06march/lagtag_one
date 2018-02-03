@@ -1,0 +1,6 @@
+{:uriI"©file://app/assets/javascripts/spree/backend/templates/taxons/tree.hbs?type=text/x-handlebars-template&id=72fa3c69172a2139012363d5492d7cf212e41154a7f721587ee209f5ca210103:ET:load_pathI"app/assets/javascripts;T:filenameI"Capp/assets/javascripts/spree/backend/templates/taxons/tree.hbs;T:	nameI"(spree/backend/templates/taxons/tree;T:logical_pathI",spree/backend/templates/taxons/tree.hbs;T:content_typeI"text/x-handlebars-template;T:sourceI"{{> taxons/_tree }}
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"Tprocessors:type=text/x-handlebars-template&file_type=text/x-handlebars-template;TTI"Qfile-digest://app/assets/javascripts/spree/backend/templates/taxons/tree.hbs;TTF:charsetI"
+utf-8;F:digest"%Ûh>ï§ù~w× Œk”I½Ô%~H»YÛ(ğ?9"ş:lengthi:dependencies_digest"%”øZî‘†º×%‹ÅÆlùú,ş1`7CÊÂ°š:C}Å:idI"E72fa3c69172a2139012363d5492d7cf212e41154a7f721587ee209f5ca210103;F:
+mtimel+â^Z

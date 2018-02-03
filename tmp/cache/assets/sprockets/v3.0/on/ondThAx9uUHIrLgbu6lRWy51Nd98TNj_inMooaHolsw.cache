@@ -1,0 +1,30 @@
+{:uriI"Ãfile://app/assets/javascripts/spree/backend/templates/stock_items/stock_location_stock_item.hbs?type=text/x-handlebars-template&id=8de649233df9f5fd9bccd26a2bf5d76967190b6baf80fb731cbdc05a6a4830eb:ET:load_pathI"app/assets/javascripts;T:filenameI"]app/assets/javascripts/spree/backend/templates/stock_items/stock_location_stock_item.hbs;T:	nameI"Bspree/backend/templates/stock_items/stock_location_stock_item;T:logical_pathI"Fspree/backend/templates/stock_items/stock_location_stock_item.hbs;T:content_typeI"text/x-handlebars-template;T:sourceI"*<td>{{stockLocationName}}</td>
+<td>
+  <input id="backorderable-{{id}}"
+         name="backorderable"
+         type="checkbox"
+         value="backorderable"
+         {{#unless editing}} disabled="disabled" {{/unless}}
+         {{#if backorderable}} checked="checked" {{/if}}
+   >
+</td>
+<td>
+  {{#if editing}}
+    <input class="fullwidth" name="count_on_hand" type="number" value="{{count_on_hand}}">
+  {{else}}
+    <span>{{count_on_hand}}</span>
+  {{/if}}
+</td>
+<td class="actions">
+  {{#if editing}}
+    <a class="submit fa fa-check icon_link with-tip no-text" data-action="save" href="#"></a>
+    <a class="cancel fa fa-cancel icon_link with-tip no-text" data-action="cancel" href="#"></a>
+  {{else}}
+    <a class="edit fa fa-edit icon_link with-tip no-text" data-action="edit" href="#"></a>
+  {{/if}}
+</td>
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"Tprocessors:type=text/x-handlebars-template&file_type=text/x-handlebars-template;TTI"kfile-digest://app/assets/javascripts/spree/backend/templates/stock_items/stock_location_stock_item.hbs;TTF:charsetI"
+utf-8;F:digest"%Ã¿¬Ò¹êú»×Tðk„`(X âìþÎ‹äêWá	gœ:lengthi*:dependencies_digest"%ïTS¸Æè±?Žž¬Ä<!<û¡|Ëº¸±ŸÜ¥†eÀ8Ë:idI"E8de649233df9f5fd9bccd26a2bf5d76967190b6baf80fb731cbdc05a6a4830eb;F:
+mtimel+â^Z
