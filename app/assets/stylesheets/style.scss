@@ -354,6 +354,33 @@ select#taxon:focus {
     background-size: 100%;
   }
 
+  h1.taxon-title {
+    margin-left: 37px;
+  }
+
+  .prodtable.pro-sheet {
+    margin-left: 40px;
+  }
+
+  div#product-images {
+    width: 100%;
+    float: none;
+  }
+
+  nav#taxonomies {
+    margin: 0px auto;
+    margin-left: 40px;
+  }
+
+  form#sidebar_products_search {
+    margin-left: 40px;
+  }
+
+  nav#breadcrumbs {
+    width: 86%;
+    margin: 0px auto;
+  }
+
   h6.search-results-title.bor {
     margin-left: 5%;
     width: 100%;
@@ -416,8 +443,8 @@ select#taxon:focus {
   }
 
   img.header-logo.mainlogo.pre-logo {
-    width: 30%;
-    float: none;
+    width: 37%;
+    float: left;
   }
 
   
