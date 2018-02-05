@@ -1,7 +1,7 @@
 <% variant = line_item.variant -%>
 <%= order_form.fields_for :line_items, line_item do |item_form| -%>
   <tr class="<%= cycle('', 'alt') %> line-item">
-    <td class="cart-item-image" data-hook="cart_item_image">
+    <td class="cart-item-image itemimg" data-hook="cart_item_image">
       <% if variant.images.length == 0 %>
         <%= link_to image_tag(variant.product.display_image.attachment(:small)), variant.product %>
       <% else %>

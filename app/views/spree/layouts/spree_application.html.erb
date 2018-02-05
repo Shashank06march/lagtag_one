@@ -9,19 +9,19 @@
     <%= render partial: 'spree/shared/head' %>
   </head>
   <% if controller_name== "home" && action_name == "index" %>
-    <div style="background-image: url(<%= asset_path 'category_page_v3.png' %>)" class="spree_img">
+    <div style="background-image: url(<%= asset_path 'category_page_v3.png' %>)" class="spree_img back">
   <% elsif controller_name== "taxons" && action_name == "show" %>
-    <div style="background-image: url(<%= asset_path 'category_page_v3.png' %>)" class="spree_img">
+    <div style="background-image: url(<%= asset_path 'category_page_v3.png' %>)" class="spree_img back">
   <% elsif controller_name== "products" && action_name == "index" %>
-    <div style="background-image: url(<%= asset_path 'category_page_v3.png' %>)" class="spree_img">
+    <div style="background-image: url(<%= asset_path 'category_page_v3.png' %>)" class="spree_img back">
   <% elsif controller_name== "products" && action_name == "show" %>
-    <div style="background-image: url(<%= asset_path 'product_detail_v3.png' %>)" class="spree_img">
+    <div style="background-image: url(<%= asset_path 'product_detail_v3.png' %>)" class="spree_img back">
   <% elsif controller_name== "orders" && action_name == "edit" %>
-    <div style="background-image: url(<%= asset_path 'cart_v3.png' %>)" class="spree_img">
+    <div style="background-image: url(<%= asset_path 'cart_v3.png' %>)" class="spree_img back">
   <% elsif controller_name== "checkout" && action_name == "edit" %>
-    <div style="background-image: url(<%= asset_path 'checkout_v3.png' %>)" class="spree_img">
+    <div style="background-image: url(<%= asset_path 'checkout_v3.png' %>)" class="spree_img back">
   <% else %>
-    <div style="background-image: url(<%= asset_path 'cart_v3.png' %>)" class="">
+    <div style="background-image: url(<%= asset_path 'cart_v3.png' %>)" class="spree_img back">
 
   <% end %>
   <body class="<%= body_class %>" id="<%= @body_id || 'default' %>" data-hook="body">
