@@ -1,0 +1,7 @@
+{:uriI"Ãfile://app/assets/javascripts/spree/backend/templates/promotions/rules/option_values_select.hbs?type=text/x-handlebars-template&id=a766d4605e4e3333206fcd37fff948eb8eaa85d58797367390e019e21ee58516:ET:load_pathI"app/assets/javascripts;T:filenameI"]app/assets/javascripts/spree/backend/templates/promotions/rules/option_values_select.hbs;T:	nameI"Bspree/backend/templates/promotions/rules/option_values_select;T:logical_pathI"Fspree/backend/templates/promotions/rules/option_values_select.hbs;T:content_typeI"text/x-handlebars-template;T:sourceI"C{{ param_prefix }}[preferred_eligible_values][{{product_id}}]
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"Tprocessors:type=text/x-handlebars-template&file_type=text/x-handlebars-template;TTI"kfile-digest://app/assets/javascripts/spree/backend/templates/promotions/rules/option_values_select.hbs;TTF:charsetI"
+utf-8;F:digest"%‘n’6 4òœèÿ>ÆûÔØ÷ZÊ¨4Ä;”‰‚2.:lengthiC:dependencies_digest"%ZÍ-/;“9Œæ'„e~d0BSù
+5óbMáŠ:idI"Ea766d4605e4e3333206fcd37fff948eb8eaa85d58797367390e019e21ee58516;F:
+mtimel+mxZ

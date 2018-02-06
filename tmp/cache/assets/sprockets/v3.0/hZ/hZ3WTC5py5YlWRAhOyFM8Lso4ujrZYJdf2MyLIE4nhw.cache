@@ -1,0 +1,10 @@
+{:uriI"¤file://app/assets/javascripts/spree/backend/templates/_image.hbs?type=text/x-handlebars-template&id=7dc025b04170ed601627e11f7e609927e6c10224139242b807cc5f025d984cd7:ET:load_pathI"app/assets/javascripts;T:filenameI">app/assets/javascripts/spree/backend/templates/_image.hbs;T:	nameI"#spree/backend/templates/_image;T:logical_pathI"'spree/backend/templates/_image.hbs;T:content_typeI"text/x-handlebars-template;T:sourceI"Ÿ{{#if image }}
+  <img src='{{ lookup image (concat size "_url") }}' alt="{{ alt }}" />
+{{ else }}
+  <span class="image-placeholder {{ size }}"></span>
+{{/if}}
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"Tprocessors:type=text/x-handlebars-template&file_type=text/x-handlebars-template;TTI"Lfile-digest://app/assets/javascripts/spree/backend/templates/_image.hbs;TTF:charsetI"
+utf-8;F:digest"%êKøàsX&ü»À™ —kØ_Ö‘Ä ¿~l’ˆ:lengthiŸ:dependencies_digest"%½ŠÏÕ!ÏŞÁ}˜zcØÖ @E„÷÷#€âh¶0:idI"E7dc025b04170ed601627e11f7e609927e6c10224139242b807cc5f025d984cd7;F:
+mtimel+mxZ
