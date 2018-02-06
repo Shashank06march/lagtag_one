@@ -349,6 +349,13 @@ select#taxon:focus {
      border: 1px solid #00ADEE;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+     table#product-properties {
+    margin: 0px auto;
+    margin-left: 40px;
+  }
+}
+
 @media (max-width: 780px){
   .spree_img.back {
     background-size: 100%;
@@ -356,10 +363,6 @@ select#taxon:focus {
 
   h1.taxon-title {
     margin-left: 37px;
-  }
-
-  .prodtable.pro-sheet {
-    margin-left: 40px;
   }
 
   div#product-images {
@@ -446,10 +449,10 @@ select#taxon:focus {
     width: 37%;
     float: left;
   }
-
-  
 }
 
+
+  
 @media (max-width: 480px){
   .spree_img{
      background-size: 99%;
